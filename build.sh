@@ -1,7 +1,6 @@
 #!/bin/bash
 
 flutter clean
-
 flutter build ios --release
 
 xcodebuild -scheme Runner \
